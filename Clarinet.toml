@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/channel-manager-verification.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.incentive-management]
+path = 'contracts/incentive-management.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 

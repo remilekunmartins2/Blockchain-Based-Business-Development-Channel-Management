@@ -46,7 +46,7 @@
       { manager: manager }
       {
         status: STATUS_PENDING,
-        verification-date: stacks-block-height,
+        verification-date: block-height,
         performance-score: u0,
         territory: territory,
         specialization: specialization
@@ -67,7 +67,7 @@
       { manager: manager }
       (merge manager-data {
         status: STATUS_VERIFIED,
-        verification-date: stacks-block-height
+        verification-date: block-height
       })
     )
 
